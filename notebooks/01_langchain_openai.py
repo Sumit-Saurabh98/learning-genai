@@ -1,9 +1,11 @@
 from dotenv import load_dotenv
-
 load_dotenv()
+
+## working with openai modal
 from langchain_openai import ChatOpenAI
 
-llm = ChatOpenAI(model="gpt-3.5-turbo")
+llm = ChatOpenAI(model="gpt-4")
 
-res = llm.invoke("Why trump attacked on present maduro?")
+res = llm.invoke("What is Python?")
+
 print(res.content)
