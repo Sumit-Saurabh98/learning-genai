@@ -10,6 +10,7 @@ prompts = [
     ("user", "How find the second largest element in a array")
 ]
 
+
 res = llm.invoke(prompts)
 
 print(res.content)

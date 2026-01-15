@@ -3,3 +3,4 @@ langchain
 langchain-openai
 langchain_anthropic
 langchain_google_genai
+streamlit
